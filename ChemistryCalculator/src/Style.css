@@ -1,0 +1,35 @@
+.root{
+    -fx-background-color: #90C8D5;
+    -fx-font-size: 10pt;
+}
+
+.label{
+    -fx-text-fill: black;
+}
+
+.button{
+    -fx-background-color: linear-gradient(#AFECFF, #7FE1FF);
+    -fx-background-radius: 4;
+}
+
+.text-field{
+    -fx-background-color: linear-gradient(#AFECFF, #7FE1FF);
+    -fx-text-fill: black;
+    -fx-prompt-text-fill: #696969;
+}
+
+#blue-bold-label{
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+
+#open-close-buttons{
+    -fx-background-color: linear-gradient(#FF9090, #F08080);
+    -fx-background-radius: 4;
+}
+
+
+/*
+    #404040
+    #4EA5FF
+*/

@@ -1,0 +1,18 @@
+import java.util.StringTokenizer;
+import java.util.Scanner;
+
+public class StringTester {
+
+  public static void main(String[] args) {
+    Scanner reacScanner = new Scanner(System.in);
+    System.out.print("What is the Chemical reaction ");
+    String rxn = reacScanner.nextLine().replaceAll(" ", "");
+
+    StringTokenizer reaction = new StringTokenizer(rxn, "+");
+    //System.out.println(str.nextToken());
+    while(reaction.hasMoreTokens()) {
+      System.out.println(reaction.nextToken());
+    }
+  }
+
+}
